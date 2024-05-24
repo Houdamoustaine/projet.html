@@ -1,0 +1,86 @@
+*{
+    background-color: rgb(229, 231, 120);
+}
+
+.contact {
+    margin-top: 50px;
+}
+
+.contact h2 {
+    color: #333;
+}
+
+.contact ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.contact ul li {
+    margin-bottom: 10px;
+}
+
+.contact ul li a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.contact ul li a:hover {
+    text-decoration: underline;
+}
+
+.avis {
+    margin-top: 50px;
+}
+
+.avis h2 {
+    color: #333;
+}
+
+.avis form {
+    max-width: 400px;
+}
+
+.avis label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.avis input[type="text"],
+.avis input[type="email"],
+.avis textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.avis input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor:default;
+}
+
+.avis input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+.footer{
+    background-color: rgb(23, 119, 23);
+}
+.icons a{
+    text-decoration: none;
+    color: black;
+}
+.icons ion-icon{
+    color: #fff;
+    font-size: 30px;
+    padding-left: 14px;
+    padding-top: 5px;
+    transition: 0.3s ;
+}
+.icons ion-icon:hover{
+    color: #ff7200;
+}
